@@ -72,7 +72,7 @@ const Lists = () => {
                 </div>
 
                 <ul className={styles.listItems}>
-                    {todoListItems.map(() => <li><ListItem list={setList1Count}/></li>)}
+                    {todoListItems.map(() => <li key={"1"}><ListItem list={setList1Count}/></li>)}
                 </ul>
             </div>
 
@@ -85,7 +85,7 @@ const Lists = () => {
                 </div>
 
                 <ul className={styles.listItems}>
-                    {list2Items.map(() => <li><ListItem list={setList2Count}/></li>)}
+                    {list2Items.map(() => <li  key={"1"}><ListItem list={setList2Count}/></li>)}
                 </ul>
             </div>
 
@@ -98,7 +98,7 @@ const Lists = () => {
                 </div>
 
                 <ul className={styles.listItems}>
-                    {list3Items.map(() => <li><ListItem list={setList3Count}/></li>)}
+                    {list3Items.map(() => <li  key={"1"}><ListItem list={setList3Count}/></li>)}
                 </ul>
             </div>
         </div>
