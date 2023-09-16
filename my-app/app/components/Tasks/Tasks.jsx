@@ -2,12 +2,12 @@ import React from "react";
 import styles from "./Tasks.module.css";
 import Image from "next/image";
 
-import buttonBack from "../../../public/static/images/btnback.png";
-import add_friend from "../../../public/static/images/add-friend 1.png";
-import task_chat from "../../../public/static/images/task_chat.png";
-import user from "../../../public/static/images/user.png";
-import companyLogo from "../../../public/static/images/companyLogo.png";
-import icVert from "../../../public/static/images/icVert.png";
+import buttonBack from "../../../public/images/btnback.png";
+import add_friend from "../../../public/images/add-friend 1.png";
+import task_chat from "../../../public/images/task_chat.png";
+import user from "../../../public/images/user.png";
+import companyLogo from "../../../public/images/companyLogo.png";
+import icVert from "../../../public/images/icVert.png";
 
 const Tasks = () => {
     return (

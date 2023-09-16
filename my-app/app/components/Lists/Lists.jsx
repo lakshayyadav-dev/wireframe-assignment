@@ -3,8 +3,8 @@ import React, { useEffect, useState } from "react";
 import styles from "./Lists.module.css";
 import Image from "next/image";
 
-import userList from "../../../public/static/images/userList.png";
-import horizontalDots from "../../../public/static/images/horizontalDots.png";
+import userList from "../../../public/images/userList.png";
+import horizontalDots from "../../../public/images/horizontalDots.png";
 
 const Lists = () => {
     const [list1, setList1Count] = useState(0);

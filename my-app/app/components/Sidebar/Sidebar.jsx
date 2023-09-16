@@ -2,20 +2,20 @@ import React from "react";
 import styles from "./Sidebar.module.css";
 import Image from "next/image";
 
-import menu_1 from "../../../public/static/images/menu_1.png";
-import menu_2 from "../../../public/static/images/menu_2.png";
-import menu_3 from "../../../public/static/images/menu_3.png";
-import menu_4 from "../../../public/static/images/menu_4.png";
-import menu_5 from "../../../public/static/images/menu_5.png";
-import menu_6 from "../../../public/static/images/menu_6.png";
-import menu_7 from "../../../public/static/images/menu_7.png";
-import menu_8 from "../../../public/static/images/menu_8.png";
-import menu_9 from "../../../public/static/images/menu_9.png";
-import menu_10 from "../../../public/static/images/menu_10.png";
+import menu_1 from "../../../public/images/menu_1.png";
+import menu_2 from "../../../public/images/menu_2.png";
+import menu_3 from "../../../public/images/menu_3.png";
+import menu_4 from "../../../public/images/menu_4.png";
+import menu_5 from "../../../public/images/menu_5.png";
+import menu_6 from "../../../public/images/menu_6.png";
+import menu_7 from "../../../public/images/menu_7.png";
+import menu_8 from "../../../public/images/menu_8.png";
+import menu_9 from "../../../public/images/menu_9.png";
+import menu_10 from "../../../public/images/menu_10.png";
 
-import mask_group from "../../../public/static/images/Mask Group.png";
-import grid from "../../../public/static/images/Grid.png";
-import arrow from "../../../public/static/images/arrow.png";
+import mask_group from "../../../public/images/Mask Group.png";
+import grid from "../../../public/images/Grid.png";
+import arrow from "../../../public/images/arrow.png";
 
 const MenuItem = ({ imgSrc, title }) => {
     return (

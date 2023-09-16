@@ -2,13 +2,13 @@ import React from "react";
 import styles from "./Navbar.module.css";
 import Image from "next/image";
 
-import search from "../../../public/static/images/search.png";
-import check from "../../../public/static/images/check.png";
-import folder from "../../../public/static/images/folder.png";
-import activities from "../../../public/static/images/activities.png";
-import notification from "../../../public/static/images/notification.png";
-import united_states_1 from "../../../public/static/images/united-states 1.png";
-import profilePicture from "../../../public/static/images/profilePicture.png";
+import search from "../../../public/images/search.png";
+import check from "../../../public/images/check.png";
+import folder from "../../../public/images/folder.png";
+import activities from "../../../public/images/activities.png";
+import notification from "../../../public/images/notification.png";
+import united_states_1 from "../../../public/images/united-states 1.png";
+import profilePicture from "../../../public/images/profilePicture.png";
 
 const Navbar = () => {
     return (
