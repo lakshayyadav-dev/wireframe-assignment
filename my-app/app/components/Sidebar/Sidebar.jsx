@@ -1,6 +1,8 @@
+"use client"
 import React from "react";
 import styles from "./Sidebar.module.css";
 import Image from "next/image";
+import {motion} from "framer-motion";
 
 import menu_1 from "../../../public/images/menu_1.png";
 import menu_2 from "../../../public/images/menu_2.png";
@@ -27,11 +29,24 @@ const MenuItem = ({ imgSrc, title }) => {
 };
 
 const Sidebar = () => {
+
+    function collapse() {
+        if (window.innerWidth < 960) {
+            const x = document.getElementById("menu");
+            if (x.style.display === "flex") {
+                x.style.display = "none";
+            }
+            else {
+                x.style.display = "flex";
+            }
+        }
+    }
+
     return (
         <div className={styles.container}>
             <div className={styles.titleContainer}>
                 <h2>weframetech</h2>
-                <div className={styles.burger}>
+                <div className={styles.burger} onClick={() => collapse()}>
                     <div/>
                     <div/>
                     <div/>
@@ -39,7 +54,7 @@ const Sidebar = () => {
             </div>
 
 
-            <div className={styles.menuContainer}>
+            <div className={styles.menuContainer} id={"menu"}>
                 <h3>MAIN MENU</h3>
                 <MenuItem imgSrc={menu_1} title="Dashboard"/>
                 <MenuItem imgSrc={menu_2} title="Email"/>
