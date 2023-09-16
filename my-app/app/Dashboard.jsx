@@ -7,13 +7,13 @@ import Lists from "@/app/components/Lists/Lists";
 
 const Dashboard = () => {
     return (
-        <div className={styles.container}>
-            <Sidebar />
+        <div className={styles.container} >
+            <Sidebar priority={true}/>
 
             <div className={styles.verticalSection}>
-                <Navbar />
-                <Tasks />
-                <Lists />
+                <Navbar priority={true}/>
+                <Tasks priority={true}/>
+                <Lists priority={true}/>
             </div>
         </div>
     );
