@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+}
+
+.searchBar {
+    background-color: #211A75;
+    border-radius: 20px;
+    height: fit-content;
+    padding: 0.5rem 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex: 0.5;
+}
+
+.searchBar > input {
+    background-color: transparent;
+    border: none;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+.menuHeading {
+    color: #6418C3;
+    text-decoration: underline;
+    margin-right: 2rem;
+}
+
+.language {
+    background-color: #211A75;
+    display: flex;
+    align-items: center;
+    padding: 0.75rem;
+    border-radius: 20px;
+    gap: 1rem;
+}
+.language > select {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.language > select > option {
+    color: black;
+}
+
+.profile {
+    display: flex;
+    gap: 1rem;
+}
+.name {
+    font-weight: 600;
+}
+.designation {
+    font-size: 12px;
+    color: #7879F1;
+}

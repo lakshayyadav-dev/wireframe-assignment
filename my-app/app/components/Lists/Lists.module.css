@@ -1,0 +1,109 @@
+.container {
+    display: flex;
+
+    width: 95%;
+    align-self: center;
+    gap: 1rem;
+}
+.container ul {
+    list-style: none;
+}
+
+.container textarea {
+    border: none;
+    background-color: transparent;
+    color: white;
+    resize: vertical;
+    height: fit-content;
+    font-size: 16px;
+}
+.container textarea::-webkit-scrollbar {
+    display: none;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.listTitle {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.addIcon {
+    background-color: #6418C3;
+    padding: 0 15px;
+    border-radius: 5px;
+    line-height: 27px;
+    cursor: pointer;
+}
+.plus {
+    transform: scale(2);
+}
+
+.listItems {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.listItem {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #211A75;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    width: 350px;
+}
+.topHalf {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.topHalf p {
+    color: #FFAB2D;
+}
+.topHalf p::before {
+    content: "•";
+    color: #FFAB2D;
+    margin-right: 5px;
+}
+
+.bottomHalf {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottomHalf p {
+    color: #A5A5A5;
+}
+
+.deleteMenu {
+    background-color: black;
+    padding: 5px;
+    position: absolute;
+    right: 1%;
+    top: 80%;
+}
+.deleteMenu span {
+    cursor: pointer;
+}
+
+.progressBar {
+    background-color: #1E1C3A;
+    width: 100%;
+    border-radius: 20px;
+    height: 7.5px;
+}
+
+.progressBarFill {
+    background-color: #FFAB2D;
+    width: 35%;
+    height: 100%;
+    border-radius: 20px;
+}

@@ -1,0 +1,86 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 95%;
+    align-self: center;
+    background-color: #15132B;
+    border-radius: 15px;
+    gap: 1rem;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+.back {
+    margin-top: 12.5px;
+}
+.heading {
+    display: flex;
+    gap: 1rem;
+}
+.heading  p {
+    color: #A5A5A5;
+}
+
+.publisherInfo {
+    display: flex;
+    gap: 1rem;
+}
+.publisherInfo p {
+    color: #A5A5A5;
+}
+.more {
+    margin-top: 12px;
+}
+
+
+
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
+.button {
+    display: flex;
+    padding: 7.5px 10px;
+    border: 2px solid #7879F1;
+    border-radius: 15px;
+    font-size: 14px;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+.inviteBtn {
+    background-color: #6418C3;
+    border-color: #6418C3;
+}
+.editBtn {
+    background-color: #7879F1;
+    border-color: #7879F1;
+}
+
+.progress {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.progressBar {
+    background-color: #1E1C3A;
+    width: 200px;
+    border-radius: 20px;
+    height: 10px;
+}
+
+.progressBarFill {
+    background-color: #6418C3;
+    width: 35%;
+    height: 100%;
+    border-radius: 20px;
+}
