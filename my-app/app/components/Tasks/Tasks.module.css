@@ -84,3 +84,62 @@
     height: 100%;
     border-radius: 20px;
 }
+
+@media screen and (max-width: 960px) {
+    .container {
+        align-items: flex-start;
+        width: 90vw;
+        gap: 4rem;
+        align-self: flex-start;
+    }
+    .heading {
+        flex-direction: column;
+        align-items: center;
+        font-size: 16px;
+    }
+    .heading p {
+        margin-top: 10px;
+    }
+    .publisherInfo {
+        align-items: center;
+    }
+    .publisherInfo p {
+        margin-top: 10px;
+    }
+    .top {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    .back {
+        display: none;
+    }
+    .bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    .buttons {
+        align-items: center;
+    }
+    .button {
+        margin-top: 10px;
+    }
+    .progress {
+        flex-direction: column;
+        align-items: center;
+    }
+    .progressBar {
+        width: 100%;
+    }
+    .progressBarFill {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .buttons {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

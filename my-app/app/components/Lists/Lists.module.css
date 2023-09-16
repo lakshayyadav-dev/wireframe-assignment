@@ -107,3 +107,24 @@
     height: 100%;
     border-radius: 20px;
 }
+
+@media screen and (max-width: 960px) {
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 90vw;
+        align-self: flex-start;
+    }
+    .list {
+        width: 100%;
+    }
+    .listTitle {
+        width: 100%;
+    }
+    .listItems {
+        width: 100%;
+    }
+    .listItem {
+        width: 100%;
+    }
+}
