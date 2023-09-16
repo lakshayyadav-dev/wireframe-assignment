@@ -14,7 +14,7 @@ import menu_9 from "../../../public/static/images/menu_9.png";
 import menu_10 from "../../../public/static/images/menu_10.png";
 
 import mask_group from "../../../public/static/images/Mask Group.png";
-import grid from "../../../public/static/images/grid.png";
+import grid from "../../../public/static/images/Grid.png";
 import arrow from "../../../public/static/images/arrow.png";
 
 const MenuItem = ({ imgSrc, title }) => {
